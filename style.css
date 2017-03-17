@@ -1,5 +1,9 @@
 body{
   background-color: #1c1c1c;
+  margin-top: 125px;
+  background-color: #2f2f2f;
+  overflow-x: hidden;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 .jumbotron{
   margin-top: 50px;
