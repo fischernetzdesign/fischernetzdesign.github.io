@@ -21,7 +21,7 @@ body{
     color: #aec2c4;
 }
 .bodyWrapper .jumbotron{
-    margin-top: 235px;
+    margin-top: 280px;
     background: none;
 }
 .logo img{
@@ -31,7 +31,7 @@ body{
 /*MEDIA QUERIES*/
 @media (max-width: 973px){
     .bodyWrapper{
-        font-size: 6vw;
+        font-size: 8vw;
         padding: 0px;
     }
     .bodyWrapper .jumbotron{
