@@ -1,10 +1,40 @@
-.bodyWrapper{
-  background-color: #1c1c1c;
-  margin-top: 125px;
-  background-color: #2f2f2f;
-  overflow-x: hidden;
-  font-family: 'Open Sans', 'Roboto', sans-serif;
+.ui-loading .ui-loader { display: block; }
+.ui-loader { display: none; position: absolute; opacity: .85; z-index: 100; left: 50%; width: 200px; margin-left: -130px; margin-top: -35px; padding: 10px 30px; }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5e2cf;
 }
-.jumbotron{
-  margin-top: 50px;
+.bodyWrapper{
+    background-color: #e5e2cf;
+    overflow-x: hidden;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    padding: 70px;
+    color: #4a5a5e;
+}
+.bodyWrapper a{
+    color: #62797f;
+}
+.bodyWrapper a:hover{
+    text-decoration: line-through;
+    color: #aec2c4;
+}
+.bodyWrapper .jumbotron{
+    margin-top: 235px;
+    background: none;
+}
+.logo img{
+    width: 100%;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 973px){
+    .bodyWrapper{
+        font-size: 6vw;
+        padding: 0px;
+    }
+    .bodyWrapper .jumbotron{
+        margin-top: 15px;
+    }
 }
