@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Amatic SC';
+}
+
+.ui-loader {
+    display: none;
+}
+
+.body-wrapper {
+    font-family: 'Amatic SC';
+}
+
+.body-wrapper .navbar-inverse {
+    background-color: #e5e2cf;
+    border-color: #dadada;
+    font-size: 40px;
+    border-radius: 0;
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #c1c1c1;
+    z-index: 100000;
+}
+
+.logo-top {
+    position: absolute;
+    width: 200px;
+    z-index: 1000000;
+}
+
+.body-wrapper .nav-brand-container {
+    color: #62797f;
+    background-color: transparent;
+    font-size: 50px;
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    margin-left: 220px;
+}
+
+.body-wrapper .ui-link {
+    height: 85px;
+}
+
+.body-wrapper .navbar-nav li a {
+    color: #62797f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 64px;
+    background-color: transparent;
+}
+
+.body-wrapper .navbar-inverse .navbar-nav > .active > a,
+.body-wrapper .navbar-inverse .navbar-nav > .active > a:focus,
+.body-wrapper .navbar-inverse .navbar-nav > .active > a:hover,
+.body-wrapper .navbar-inverse .navbar-nav > li > a {
+    color: #62797f;
+    background-color: transparent;
+}
+
+.body-wrapper .navbar-inverse .navbar-nav > .active > a:hover,
+.body-wrapper .navbar-inverse .navbar-nav > li > a:hover {
+    color: #c2c6c6;
+    background-color: transparent;
+}
+
+.middleBlue{
+    color: #62797f;
+}
+
+.beige{
+    color: #e5e2cf;
+}
+
+.hellblau{
+    color: #aec2c4;
+}
+
+/*Dunkelgraublau*/
+/*4a5a5e;*/
+
+/*mittelgraublau*/
+/*62797f*/
+
+/*beige*/
+/*e5e2cf*/
+
+/*hellgraublau*/
+/*c2c6c6*/
+
+/*hellblau*/
+/*aec2c4*/
+
+.anker-margin{
+    display: inline-block;
+    margin-top: -85px;
+    height: 85px;
+}
+
+.pagePadding {
+    padding: 75px;
+}
+
+.marginTop {
+    margin-top: 50px;
+}
+
+.headline img {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -75px;
+    opacity: 0.1;
+}
+
+.headline h1 {
+    font-size: 60px;
+}
+
+.subheadline h3 {
+    text-align: center;
+    font-size: 38px;
+}
+
+/*collapsed navbar*/
+body .navbar-inverse .navbar-toggle:focus, body .navbar-inverse .navbar-toggle:hover {
+    background-color: #62797f;
+}
+
+body .navbar-inverse .navbar-toggle {
+    border-color: #62797f;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+/*SEITE1*/
+.seite1 {
+    background-color: #c2c6c6;
+    background-image: url("images/bg1.png");
+    background-size: 100%;
+    padding-top: 79px;
+}
+
+.seite1 .pagePadding {
+    padding: 150px;
+}
+
+.seite1 h4 {
+    font-size: 41px;
+    color: #4a5a5e;
+}
+
+.seite1 h1 {
+    font-size: 118px;
+    color: #4a5a5e;
+    z-index: 100;
+}
+
+/*SEITE2*/
+.seite2 {
+    background-color: #e5e2cf;
+}
+
+.seite2 .headline, .seite2 .subheadline {
+    color: #62797f;
+}
+
+.köder h3 {
+    font-size: 47px;
+    color: #62797f;
+}
+
+.köder img {
+    width: 80%;
+}
+
+/*SEITE3*/
+.seite3 {
+    background-color: #c2c6c6;
+    background-image: url("images/bg2.png");
+    background-size: 100%;
+}
+
+.seite3 blockquote {
+    color: #62797f;
+    font-size: 39px;
+    border-left: 4px solid #62797f;
+}
+
+/*SEITE4*/
+.seite4 {
+    background-color: #62797f;
+    background-image: url("images/bg3.png");
+}
+
+.seite4 .headline, .seite4 .subheadline, .fratz-container h1{
+    color: #e5e2cf;
+}
+
+.fratz-container img{
+    width: 64%;
+}
+
+.fratz-container h1{
+    font-size: 55px;
+}
+
+.fratz-container h3{
+    font-size: 44px;
+    color: #c2c6c6;
+}
+
+/*SEITE5*/
+.seite5 {
+    background-color: #c2c6c6;
+    background-image: url("images/bg4.png");
+}
+
+.fischer-container img{
+    width: 100%;
+}
+
+.fischer-container h3{
+    font-size: 44px;
+}
+
+/*SEITE6*/
+.seite6 {
+    background-color: #4a5a5e;
+    background-image: url("images/bg5.png");
+    background-size: 100%;
+}
+
+.seite6 blockquote {
+    color: #aec2c4;
+    font-size: 39px;
+    border-left: 4px solid #aec2c4;
+}
+
+/*SEITE7*/
+.seite7 {
+    background-color: #e5e2cf;
+}
+
+.seite7 .headline, .seite7 .subheadline {
+    color: #62797f;
+}
+
+.projects img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.project-hover {
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(98, 121, 127, 0.89);
+    color: #e5e2cf;
+    top: 0;
+    z-index: 100;
+    height: 100%;
+    width: 92.4%;
+    padding-right: 13px;
+    padding-left: 15px;
+    padding-top: 28%;
+    float: left;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
+
+.project-hover h3{
+    font-size: 44px;
+}
+
+.project-hover p{
+    color: #aec2c4;
+    font-size: 29px;
+}
+
+.project-hover a{
+    color: #aec2c4;
+}
+
+.project-hover a:hover{
+    text-decoration: none;
+}
+
+.project-hover-show{
+    object-fit: cover;
+}
+
+.project-hover-show:hover .project-hover{
+    cursor: crosshair;
+    display: block;
+    opacity: 1.0;
+}
+
+/*SEITE8*/
+.seite8 {
+    background-color: #4a5a5e;
+    background-image: url("images/bg6.png");
+    background-size: 100%;
+}
+
+.seite8 blockquote {
+    color: #aec2c4;
+    font-size: 39px;
+    border-left: 4px solid #aec2c4;
+}
+
+/*SEITE9*/
+.seite9 {
+    background-color: #e5e2cf;
+    background-image: url("images/bg7.png");
+    background-size: 100%;
+}
+
+.schiff-container h3{
+    font-size: 39px;
+}
+
+.schiff-container a{
+    color: #62797f;
+    text-decoration: none;
+}
+
+.schiff-container a:hover{
+    color: #4a5a5e;
+    text-decoration: none;
+}
+
+.seite9 .headline, .seite9 .subheadline {
+    color: #62797f;
+}
+
+.seite9 .schiff img{
+    width: 60%;
+}
+
+/*SEITE10*/
+.seite10 {
+    color: #62797f;
+    background-color: #c2c6c6;
+}
+
+.seite10 .impressumstext h3{
+    font-size: 39px;
+}
+
+.seite10 a{
+    color: #62797f;
+    text-decoration: none;
+}
+
+.seite10 a:hover{
+    color: #4a5a5e;
+    text-decoration: none;
+}
+
+@media (max-width:1200px){
+
+    .body-wrapper .nav-brand-container {
+        font-size: 30px;
+        margin-left: -6px;
+    }
+
+    .navbar-nav.navbar-right li a{
+        font-size: 30px;
+    }
+
+    .seite1, .seite3, .seite4, .seite5, .seite6, .seite8, .seite9{
+        background-size: cover;
+    }
+
+    .projects img {
+        height: 296px;
+    }
+
+    .project-hover {
+        padding-top: 7%;
+    }
+
+}
+
+@media (min-width:769px) {
+
+    .mobileLogo img {
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+
+    .mobileLogo img{
+        width: 70%;
+    }
+
+    .logo-top {
+        position: absolute;
+        width: 100px;
+        margin-left: -89px;
+        margin-top: 1px;
+        z-index: 1000000;
+    }
+
+    .body-wrapper .nav-brand-container {
+        font-size: 30px;
+        margin-left: 19px;
+        line-height: 36px;
+    }
+
+    body .navbar-inverse .navbar-toggle {
+        border-color: #62797f;
+        margin-top: 17px;
+        margin-right: 24px;
+        margin-bottom: 16px;
+    }
+
+    .body-wrapper .navbar-nav li a {
+        color: #62797f;
+        line-height: 27px;
+        border-bottom: 1px solid #d2d2d2;
+    }
+
+    .body-wrapper .ui-link {
+        height: 48px;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: #cacaca;
+    }
+
+    .seite1 .pagePadding{
+        padding: 20px;
+    }
+
+    .seite1 h1 {
+        font-size: 98px;
+    }
+
+    .marginTopMobile{
+        margin-top: 20px;
+    }
+
+    .seite2 .mobileBorder{
+        border-top: 1px solid #62797f;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .seite9 .schiff img{
+        width: 100%;
+    }
+
+}
