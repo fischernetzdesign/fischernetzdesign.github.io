@@ -179,6 +179,12 @@ body .navbar-inverse .navbar-toggle {
     color: #62797f;
 }
 
+.seite2 h4{
+    font-size: 32px;
+    color: #aec1c4;
+    padding: 0 52px;
+}
+
 .köder img {
     width: 80%;
 }
