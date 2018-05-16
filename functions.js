@@ -13,4 +13,13 @@ $(document).ready(function () {
         });
     });
 
+    $(document).ready(function(){
+        $("#mehrLesen").on("hide.bs.collapse", function(){
+            $(".mehrLesen-btn").html('- mehr lesen -');
+        });
+        $("#mehrLesen").on("show.bs.collapse", function(){
+            $(".mehrLesen-btn").html('- weniger lesen -');
+        });
+    });
+
 });

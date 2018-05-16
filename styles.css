@@ -380,6 +380,10 @@ body .navbar-inverse .navbar-toggle {
     padding: 23px;
 }
 
+.mehrLesen-btn{
+    cursor: pointer;
+}
+
 @media (max-width:1200px){
 
     .body-wrapper .nav-brand-container {
