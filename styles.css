@@ -375,6 +375,11 @@ body .navbar-inverse .navbar-toggle {
     text-decoration: none;
 }
 
+.seite10 .impressumsText{
+    font-size: 22px;
+    padding: 23px;
+}
+
 @media (max-width:1200px){
 
     .body-wrapper .nav-brand-container {
@@ -396,6 +401,10 @@ body .navbar-inverse .navbar-toggle {
 
     .project-hover {
         padding-top: 7%;
+    }
+
+    .impressumstext.text-right{
+        text-align: left;
     }
 
 }
