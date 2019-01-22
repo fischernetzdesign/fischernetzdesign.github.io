@@ -144,7 +144,7 @@ body .navbar-inverse .navbar-toggle {
 
 /*SEITE1*/
 .seite1 {
-    background-color: #c2c6c6;
+    background-color: #89abad;
     background-image: url("images/bg1.png");
     background-size: 100%;
     padding-top: 79px;
@@ -181,7 +181,7 @@ body .navbar-inverse .navbar-toggle {
 
 .seite2 h4, .seite7 h4, .seite9 h4{
     font-size: 32px;
-    color: #aec1c4;
+    color: #5a8588;
     padding: 0 52px;
 }
 
