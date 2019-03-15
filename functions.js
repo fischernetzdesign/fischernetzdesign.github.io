@@ -20,6 +20,13 @@ $(document).ready(function () {
         $("#mehrLesen").on("show.bs.collapse", function(){
             $(".mehrLesen-btn").html('- weniger lesen -');
         });
+        if ($(window).width() <= 992) {
+            $('.nav a').on('click', function(){
+                $('.navbar-toggle').click();
+            });
+        } else {
+
+        }
     });
 
     $(window).resize(function () {
