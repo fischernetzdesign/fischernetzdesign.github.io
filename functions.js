@@ -22,8 +22,14 @@ $(document).ready(function () {
         });
     });
 
-    $('.nav a').on('click', function(){
-        $('.navbar-toggle').click();
+    $(window).resize(function () {
+        if ($(window).width() <= 992) {
+            $('.nav a').on('click', function(){
+                $('.navbar-toggle').click();
+            });
+        } else {
+
+        }
     });
 
 });
