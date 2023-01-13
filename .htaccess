@@ -1,10 +1,7 @@
 ErrorDocument 404 https://fischernetzdesign.com/404.html
 
 <IfModule mod_rewrite.c>
-
 RewriteEngine On
-
 RewriteCond %{HTTPS} !=on
-RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
-
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
