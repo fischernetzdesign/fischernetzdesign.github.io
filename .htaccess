@@ -4,7 +4,7 @@ ErrorDocument 404 https://fischernetzdesign.com/404.html
 
 RewriteEngine On
 
-RewriteCond %{SERVER_PORT} !^443$
+RewriteCond %{HTTPS} !=on
 RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 
 </IfModule>
