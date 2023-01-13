@@ -1,1 +1,13 @@
 ErrorDocument 404 http://fischernetzdesign.com/404.html
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www.domain.de$ [NC]
+RewriteRule ^(.*)$ https://www.domain.de/$1 [L,R=301]
+
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://www.domain.de/$1 [R=301,L]
+
+</IfModule>
